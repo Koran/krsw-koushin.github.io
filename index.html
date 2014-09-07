@@ -9,10 +9,10 @@
 	<script type="text/javascript" >
 
 	function translateToSongo(str){
-		str = str.replace(/私|僕|自分|わたし|ぼく|ワイ|わたくし|わし|儂|俺|おれ|オレ|おいら|オイラ|我輩|わがはい|ワガハイ/g,"当職");
+		str = str.replace(/私|僕|自分|わたし|ぼく|ワイ|わたくし|わし|儂|俺|おれ|オレ|おいら|オイラ|我輩|わがはい|ワガハイ|尊師|唐澤貴洋/g,"当職");
 		str = str.replace(/です。/g,"ですを");
-		str = str.replace(/ます。/g,"ますを");
 
+		str = str.replace(/ます。/g,"ますを");
 		str = str.replace(/ニート/g,"臥薪嘗胆民");
 		str = str.replace(/ありがとう。/g,"出会いに感謝。");
 		str = str.replace(/近づ/g,"ちかず");
@@ -25,14 +25,14 @@
 		str = str.replace(/ばか|馬鹿|バカ/g,"頭唐澤貴洋");
 		str = str.replace(/役立たず|無才|クズ|あほ|阿呆|アホ/g,"無能");
 		str = str.replace(/世界/g,"優しい世界");
-
-		/*12との出会いに感謝*/
 		str = str.replace(/ありがとう|有り難う|有難う|ありがたい|有り難い|有難い|サンキュー|サンガツ/g,"人との出会いに感謝。");
 		str = str.replace(/感動す|感動し|感激し|感激す/g,"身が震え");
 		str = str.replace(/である。|だ。|や。|で。|ぜ。|やで。|んや。|やぞ。|うや。/g,"ナリ。");
 		str = str.replace(/だよ。|ですよ。|よ。|うよ。/g,"ナリよ。");
 		str = str.replace(/た。/g,"たナリよ。");
-
+		/*12との出会いに感謝*/
+		str = str.replace(/すか。|すか？/g,"すか。ひろゆきさんあなたには答える社会的責任がある。");
+		str = str.replace(/のか。|のか？/g,"のか。ひろゆきさんお答えください");
 
 		return str;
 	}
